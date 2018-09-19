@@ -1,0 +1,11 @@
+{
+  "name": "test-mod",
+  "required": true,
+  "priority": 1000,
+  "mappings": "asmlib.example.mappings.json",
+  "transformers": {
+    "me.babbaj.asmlibforge.asm.transformers": [
+      "TestTransformer"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "asmlibforge",
+    "name": "asmlibforge",
+    "description": "",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      ""
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": [
+      "asmlib"
+    ]
+  }
+]
