@@ -23,7 +23,7 @@ public class WorldPatch {
         method.<ToBooleanFunction<EnumSkyBlock>>invoke(lightType -> lightType == EnumSkyBlock.SKY);
         final LabelNode jump = new LabelNode();
         method.visitInsn(new JumpInsnNode(IFNE, jump));
-        method.visitInsn(new LdcInsnNode(ICONST_0));
+        method.visitInsn(new InsnNode(ICONST_0));
         method.visitInsn(new InsnNode(IRETURN));
         method.visitInsn(jump);
     }
